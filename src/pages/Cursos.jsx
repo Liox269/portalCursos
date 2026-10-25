@@ -26,7 +26,7 @@ export default function Cursos() {
   });
 
   return <section>
-    <div className="encabezado-pagina"><div><span className="sobretitulo">FORMACIÓN PARA TU FUTURO</span><h1>Catálogo de cursos</h1><p>Encuentra tu próxima oportunidad de aprendizaje.</p></div><span className="contador">♥ {favoritos.length} favoritos</span></div>
+    <div className="encabezado-pagina"><div><span className="sobretitulo">FORMACIÓN PARA TU FUTURO</span><h1>Catálogo de cursos</h1><p>Encuentra tu próxima oportunidad de aprendizaje.</p></div><span className="contador">Favoritos: {favoritos.length}</span></div>
     <form className="buscador" onSubmit={buscar}>
       <label htmlFor="q" className="sr-only">Buscar cursos</label>
       <input key={q} id="q" type="search" name="q" defaultValue={q} placeholder="Buscar por curso, descripción o área…" />

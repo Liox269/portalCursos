@@ -5,7 +5,7 @@ export default function Layout() {
   return <div className="app">
     <header className="cabecera">
       <div className="contenedor nav">
-        <NavLink to="/" className="marca">EduPortal<span>.</span></NavLink>
+        <NavLink to="/" className="marca">Portal de Cursos</NavLink>
         <nav aria-label="Navegación principal">
           <NavLink to="/" end className={claseEnlace}>Inicio</NavLink>
           <NavLink to="/cursos" className={claseEnlace}>Cursos</NavLink>
@@ -15,6 +15,6 @@ export default function Layout() {
       </div>
     </header>
     <main className="contenedor contenido"><Outlet /></main>
-    <footer className="pie"><div className="contenedor">© 2026 EduPortal · Proyecto académico de React Router</div></footer>
+    <footer className="pie"><div className="contenedor">Portal de Cursos - Proyecto académico</div></footer>
   </div>;
 }
