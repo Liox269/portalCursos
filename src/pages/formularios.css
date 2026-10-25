@@ -1,0 +1,74 @@
+.formulario {
+  max-width: 560px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: #fff;
+  border: 1px solid #dfe5ee;
+  border-radius: 14px;
+  padding: 1.5rem;
+}
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+.campo label,
+.campo legend {
+  font-weight: 600;
+}
+.campo input,
+.campo select,
+.campo textarea {
+  font: inherit;
+  color: #1c2940;
+  background: #fff;
+  border: 1px solid #dfe5ee;
+  border-radius: 10px;
+  padding: 0.65rem 0.8rem;
+  width: 100%;
+}
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+  outline: 3px solid #bdcafe;
+  border-color: #7c8cf5;
+}
+.campo .en-linea {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 400;
+  margin-right: 1rem;
+}
+.campo .en-linea input {
+  width: auto;
+}
+.error {
+  color: #bf315b;
+  font-size: 0.9rem;
+}
+.exito {
+  color: #1e8a5a;
+  font-weight: 600;
+}
+.ayuda {
+  color: #5b6b85;
+  font-size: 0.85rem;
+}
+.resumen {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 0.5rem;
+  max-width: 560px;
+}
+.resumen li {
+  background: #fff;
+  border: 1px solid #dfe5ee;
+  border-radius: 10px;
+  padding: 0.7rem 1rem;
+}
