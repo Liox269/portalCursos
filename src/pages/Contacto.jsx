@@ -1,0 +1,1 @@
+export default function Contacto(){return <div className="vacio"><span className="sobretitulo">PRÓXIMA FASE</span><h1>Contacto</h1><p>El formulario controlado de contacto se realizará en la fase 8.</p></div>}
